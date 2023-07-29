@@ -5,7 +5,6 @@ app = Flask(__name__)  # Initializing flask
 # Loading our model:
 model = pickle.load(open("RFmodel.pkl", "rb"))
 
-
 @app.route("/")
 def home():
     return render_template("home.html")

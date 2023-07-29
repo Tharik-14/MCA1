@@ -226,7 +226,7 @@ print("The Shape of x:", x.shape)
 print("The Shape of y:", y.shape)
 
 # ## Feature Selection
-# Feature Selection is a techinque of finding out the features that contribute the most to our model i.e. the best
+# Feature Selection is a technique of finding out the features that contribute the most to our model i.e. the best
 # predictors.
 
 
